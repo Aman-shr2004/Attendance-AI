@@ -16,8 +16,13 @@ env/
 # --- Streamlit Secrets (NEVER commit) ---
 .streamlit/secrets.toml
 
+# --- Environment Variables ---
+.env
+.env.*
+
 # --- InsightFace Model Cache ---
 models/
+.insightface/
 *.onnx
 
 # --- IDE ---
@@ -33,3 +38,11 @@ desktop.ini
 
 # --- Temp uploads ---
 temp_uploads/
+
+# --- Logs ---
+*.log
+
+# --- Videos for testing ---
+*.mp4
+*.avi
+*.mov
