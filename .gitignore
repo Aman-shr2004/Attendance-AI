@@ -1,0 +1,35 @@
+# ========================================
+# Attendance-AI .gitignore
+# ========================================
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# --- Streamlit Secrets (NEVER commit) ---
+.streamlit/secrets.toml
+
+# --- InsightFace Model Cache ---
+models/
+*.onnx
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Temp uploads ---
+temp_uploads/
